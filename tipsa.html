@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tipsa</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Quattrocento+Sans|Quicksand&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header><img id="logo" src="img/logo.png" alt=""></header>
+
+    <nav id="meny">
+        <a href="index.html">HEM</a>
+        <a href="tipsa.html">TIPSA</a>
+        <div class="dropdown">
+        <a  id="kategorier" href="#">KATEGORIER ⇓</a>
+        </div>
+        <a href="omoss.html">OM OSS</a>
+    </nav>
+    <div id="dropdown-content">
+        <a href="kategori.html">MUSIK</a>
+        <a href="kategori2.html">RECEPT</a>
+        <a href="kategori3.html">FILMER</a>
+        <a href="kategori4.html">BÖCKER</a>
+    </div>
+    
+
+    <div id="start"><img  src="img/bergstopp-tapet-3072x576-1736_124.jpg" alt=""></div>
+    
+    <h2>Skicka in dina bästa tips</h2> 
+
+
+    <div id="tips">
+    <form id="skickain" action="/action_page.php">
+        <label for="fname">Förnamn:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Efternamn:</label><br>
+        <input type="text" id="fname" name="lname" value=""><br>
+        <label for="fname">Kategori:</label><br>
+        <input type="radio" id="fname" name="gender" value="male">
+        <label for="male">Musik</label><br>
+        <input type="radio" id="fname" name="gender" value="female">
+        <label for="female">Recept</label><br>
+        <input type="radio" id="fname" name="gender" value="other">
+        <label for="other">Filmer</label><br>
+        <input type="radio" id="fname" name="gender" value="other">
+        <label for="other">Böcker</label><br><br>
+        <label for="fname">Skriv ditt tips här:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="fname">Förklara varför ditt tips är så bra:</label><br>
+        <input type="text" id="fname" name="fname" value="">
+        
+      </form>
+      </div>
+
+      <button id="skicka">Skicka in</button>
+
+      <div id="tack">
+        <p>TACK FÖR DITT TIPS! ❤</p>
+    </div>
+
+
+    <footer>
+        <a id="planering" href="misc/planering.html">Planering</a>
+        <a href="https://www.facebook.com/"><img  src="img/Facebook_logo_(square).png" alt=""></a>
+        <a href="https://www.instagram.com/"><img src="img/instagram-logos-png-images-free-download-2.png" alt="" srcset=""></a>
+        <a id="footer" href="https://www.spotify.com/se/"><img src="img/1024px-Spotify_logo_without_text.svg.png" alt=""></a>
+
+      
+    </footer>
+
+    <script src="js/nav.js"></script>
+</body>
+</html>
